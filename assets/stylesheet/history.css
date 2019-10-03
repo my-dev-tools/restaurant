@@ -1,0 +1,300 @@
+body{margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;}
+    
+    ul { list-style: none;}
+    
+    
+    a{text-decoration: none;}
+    
+       
+    .container{
+        width: 1150px;
+        margin: 0 auto;
+    }
+    
+    #header{margin-top: 15px;}
+    
+    
+    #header .row{display: flex;
+    }
+    
+    #header .col-md-9 {margin-top: 13px;}
+    
+    #header .col-md-9 #mainlist{display: flex;
+    justify-content: flex-end;
+    }
+    
+    #header .col-md-9 #mainlist .list_1{
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    
+    #header .col-md-9 #mainlist .list_2{margin-right: 0px !important;
+    margin-left: 0px !important;}
+    
+    #header .col-md-9 #mainlist a{text-transform: uppercase;
+       color:  #4c4c4c;
+    }
+    
+    #header .col-md-9 #mainlist .difflist{
+        background-color: #E54C2A;
+        border-radius: 50px;
+        padding: 7px 30px; 
+        margin-top: -5px !important;
+    }
+    
+    #header .col-md-9 #mainlist .difflist a{color: white;}
+    
+    
+    #header .col-md-9 #mainlist .difflist:hover {
+        background-color: #4C4C4C;
+       
+    }
+    
+    #header .col-md-9 #mainlist .dropdown{position: absolute;
+    width: 35%;
+    display: none;
+    }
+    
+    #header .col-md-9 #mainlist li:hover .dropdown {
+        display: block;
+        margin-top: 12px;
+      
+    }
+    
+    #header .col-md-9 #mainlist .list_1:hover a{color: #e44c2a;}
+    
+    
+    
+    #header .col-md-9 #mainlist .dropdown ul li a{color: #4c4c4c !important;}
+    
+    #header .col-md-9 #mainlist li:hover .dropdown ul li{border: 1px solid grey;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 6px;}
+
+
+    #banner .heading{
+        position: absolute;
+        top: 27%;
+        left: 37%;
+        width: 40%;
+        text-transform: uppercase;
+        color: white;
+    }
+
+    #banner{position: relative;
+    margin-top: 20px;}
+
+    #banner .heading h1{font-size: 100px;
+        font-family: "Yanone Kaffeesatz", Sans-serif;}
+
+#banner img{max-height: 650px;
+width: 100%;}
+    #banner .para{
+        position: absolute;
+        top: 50%;
+        left: 29%;
+        width: 45%;
+        color: white;
+    }
+
+    #banner .para p{
+        font-size: 18px;
+    }
+
+    #banner .bg{position: absolute;
+    top: 0px;
+left: 0px;
+width: 100%;
+height: 100%;
+background-color: #f24835;
+opacity: 0.5;
+mix-blend-mode: lighten;
+}
+
+
+#section_2{
+    background-color: #152231;
+    margin-top: -80px;
+    height: 800px;
+}
+
+#section_2 .heading{
+    text-align: center;
+    margin-top: 80px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-family: "Yanone Kaffeesatz", Sans-serif;
+    font-size: 100px;
+    color: white;
+    padding-top: 80px;
+
+}
+
+
+
+
+#section_2 .heading h1{font-size: 80px;
+margin-bottom: 0px;}
+
+#section_2 .heading h2{font-size: 80px;
+margin-top: -28px;
+padding-top: 0px;
+color: white;}
+
+
+#section_2 .para{
+    margin-top: 50px;
+    color: #676A6D;
+}
+
+
+#section_2 .para p{
+    margin-bottom: 35px;
+}
+
+
+#section_3{position: relative;}
+
+#section_3 .image{width: 100%;
+    filter: blur(3px);
+height: 700px;}
+
+
+#section_3 .bg{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    opacity: 0.4;
+    background-color: #f24835;
+    height: 100%;
+
+}
+
+
+#section_3 .subsection{
+    position: absolute;
+    width: 70%;
+    top: 14%;
+    left: 15%;
+    z-index: 2;
+    background-color:  #f24835;
+}
+
+
+
+#section_3 .subsection h2{
+    text-align: center;
+    text-transform: uppercase;
+   
+}
+
+#section_3 .subsection p{
+    text-align: center;
+    color: white;
+}
+
+
+#section_3 .subsection .row{display: flex;
+justify-content: space-around;
+margin-top: 80px; 
+
+}
+
+#section_3 .subsection .heading{
+    color: white;
+    text-transform: uppercase;
+    font-family: "Yanone Kaffeesatz", Sans-serif;
+    font-size: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    
+}
+
+
+#section_3 .subsection .row ul{width: 30%;}
+
+
+#section_3 .subsection .row ul li img{width: 100%;}
+
+
+#section_3 .subsection .row ul li h2{font-family: "Yanone Kaffeesatz", Sans-serif;
+    color: white;
+
+}
+
+
+
+#section_3 .subsection .row ul li {color: white;}
+
+
+#section_3 .subsection .row ul li.price{
+    font-family: "Yanone Kaffeesatz", Sans-serif;
+    font-size: 50px;
+
+}
+
+
+#section_3 .subsection .row .list{text-transform: uppercase;
+    margin-left: -31px;}
+
+#section_3 .subsection .row .list li{text-align: center;
+    font-family: "Yanone Kaffeesatz", Sans-serif;
+font-size: 18px;
+}
+
+
+#section_4 .heading{
+    margin-top: 80px;
+    text-align: center;
+    font-family: "Yanone Kaffeesatz", Sans-serif;
+    font-size: 80px;
+}
+
+#section_4 .heading h2{
+    font-family: "Yanone Kaffeesatz", Sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    margin-bottom: 80px;
+}
+
+#section_4 .row{display: flex;
+}
+
+
+#section_4 .row .col-md-6 img{border-radius: 50%;
+}
+
+
+#section_4 .row .col-md-6 h2{text-transform: uppercase;
+    font-family: "Yanone Kaffeesatz", Sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 60px;
+    
+}
+
+
+#section_4 .row .col-md-6 span.bold{
+
+    font-family: "Yanone Kaffeesatz", Sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+#section_4 .row .col-md-6 .symbols{
+    margin-top: 50px;
+}
+
+#section_4 .row .col-md-6 .symbols .color{
+    padding: 10px;
+    background-color: #E54C2A;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+
+}
